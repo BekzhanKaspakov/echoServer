@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS entries;
+
+CREATE TABLE entries (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  text VARCHAR(250) NOT NULL
+);
+
+INSERT INTO entries (text) VALUES ('Hello World');
