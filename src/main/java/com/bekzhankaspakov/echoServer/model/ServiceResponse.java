@@ -1,4 +1,4 @@
-package com.bekzhankaspakov.echoServer.controller;
+package com.bekzhankaspakov.echoServer.model;
 
 import lombok.Data;
 
