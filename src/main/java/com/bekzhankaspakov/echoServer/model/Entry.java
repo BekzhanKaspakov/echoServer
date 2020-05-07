@@ -1,4 +1,4 @@
-package com.bekzhankaspakov.echoServer;
+package com.bekzhankaspakov.echoServer.model;
 
 public class Entry {
 

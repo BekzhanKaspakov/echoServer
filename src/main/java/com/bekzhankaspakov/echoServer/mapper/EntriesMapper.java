@@ -1,5 +1,6 @@
-package com.bekzhankaspakov.echoServer;
+package com.bekzhankaspakov.echoServer.mapper;
 
+import com.bekzhankaspakov.echoServer.model.Entry;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 

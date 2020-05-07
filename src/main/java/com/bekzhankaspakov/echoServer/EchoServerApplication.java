@@ -1,7 +1,7 @@
 package com.bekzhankaspakov.echoServer;
 
+import com.bekzhankaspakov.echoServer.model.Entry;
 import org.apache.ibatis.type.MappedTypes;
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
