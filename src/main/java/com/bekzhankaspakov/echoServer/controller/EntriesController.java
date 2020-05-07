@@ -23,13 +23,6 @@ public class EntriesController {
         this.entriesMapper = entriesMapper;
     }
 
-    @GetMapping("/helloworld")
-    public @ResponseBody String getAll() {
-        String text = entriesMapper.findAll().get(0).getText();
-        String result = "<h1>" + text + "</h1>";
-        return result;
-    }
-
     @GetMapping("/getEntries")
     public ResponseEntity<Object> getEntries() {
         ServiceResponse<List<Entry>> response = new ServiceResponse<>("success", entriesMapper.findAll());
